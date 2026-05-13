@@ -4,7 +4,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from 'recharts';
 import { questions as defaultQuestions } from './questions'; 
-import './App.css';
+import './app.css';
 
 /**
  * Utility Function: True Fisher-Yates Array Shuffle
